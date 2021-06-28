@@ -9,13 +9,13 @@ import pymysql
 
 GENRES = ['Mystery and thriller', 'Music', 'Musical', 'Documentary', 'Drama',
           'Romance', 'Horror', 'War', 'Biography', 'Gay and lesbian', 'History',
-          'Action', 'Crime', 'Comedy', 'Sci fi', 'Fantasy', 'Adventure', 'Kids and family', 'Animation',
-          'Sports and fitness', 'Other']
+          'Action', 'Crime', 'Comedy', 'Sci fi', 'Fantasy', 'Adventure', 'Kids & family', 'Animation',
+          'Sports & fitness', 'Other']
 
-GENRES_DICT = {'Mystery and thriller': 0, 'Music': 1, 'Musical': 2, 'Documentary': 3, 'Drama': 4,
-               'Romance': 5, 'Horror': 6, 'War': 7, 'Biography': 8, 'Gay and lesbian': 9, 'History': 10,
-               'Action': 11, 'Crime': 12, 'Comedy': 13, 'Sci fi': 14, 'Fantasy': 15, 'Adventure': 16,
-               'Kids and family': 17, 'Animation': 18, 'Sports and fitness': 19, 'Other': 20}
+GENRES_DICT = {'Mystery & thriller': 0, 'Music': 1, 'Musical': 2, 'Documentary': 3, 'Drama': 4,
+               'Romance': 5, 'Horror': 6, 'War': 7, 'Biography': 8, 'Gay & lesbian': 9, 'History': 10,
+               'Action': 11, 'Crime': 12, 'Comedy': 13, 'Sci-fi': 14, 'Fantasy': 15, 'Adventure': 16,
+               'Kids & family': 17, 'Animation': 18, 'Sports & fitness': 19, 'Other': 20}
 
 ENV_FILE_PATH = '.env'
 
