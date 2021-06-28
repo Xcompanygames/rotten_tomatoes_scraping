@@ -6,8 +6,8 @@ gevent==21.1.2
 greenlet==1.1.0
 grequests==0.6.0
 idna==2.10
-mysql==0.0.2
-mysql-connector-python-rf==2.2.2
+mysql-connector-python
+mysql
 mysqlclient==2.0.3
 numpy==1.20.3
 pandas==1.2.4
@@ -16,3 +16,5 @@ python-dateutil==2.8.1
 python-decouple==3.4
 pytz==2021.1
 requests==2.25.1
+SQLAlchemy==1.4.4
+tqdm==4.60.0
